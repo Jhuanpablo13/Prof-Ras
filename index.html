@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutoriais RAS Informática</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f7fa;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        h1 {
+            color: #2c3e50;
+        }
+        
+        .video-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        
+        .video-card {
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        
+        .video-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .video-link {
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+        
+        .video-thumbnail {
+            position: relative;
+            width: 100%;
+            height: 180px;
+            overflow: hidden;
+        }
+        
+        .video-thumbnail img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .video-info {
+            padding: 15px;
+        }
+        
+        .video-info h3 {
+            margin: 0 0 10px 0;
+            color: #2c3e50;
+        }
+        
+        .video-info p {
+            margin: 0;
+            color: #7f8c8d;
+            font-size: 14px;
+        }
+        
+        .watch-btn {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 8px 15px;
+            background-color: #3498db;
+            color: white;
+            border-radius: 4px;
+            font-size: 14px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Tutoriais de Programação</h1>
+            <p>Conteúdos educativos do canal RAS Informática</p>
+        </header>
+        
+        <div class="video-grid">
+            <!-- JavaScript Moderno -->
+            <div class="video-card">
+                <a href="https://youtu.be/-Ya6x9RDayU" class="video-link" target="_blank">
+                    <div class="video-thumbnail">
+                        <img src="https://img.youtube.com/vi/-Ya6x9RDayU/maxresdefault.jpg" alt="JavaScript Moderno">
+                    </div>
+                    <div class="video-info">
+                        <h3>JavaScript Moderno</h3>
+                        <p>Recursos avançados do ECMAScript</p>
+                        <span class="watch-btn">Assistir no YouTube</span>
+                    </div>
+                </a>
+            </div>
+            
+            <!-- Arrays em JavaScript -->
+            <div class="video-card">
+                <a href="https://youtu.be/OwSsDCQnWx4" class="video-link" target="_blank">
+                    <div class="video-thumbnail">
+                        <img src="https://img.youtube.com/vi/OwSsDCQnWx4/maxresdefault.jpg" alt="Arrays em JavaScript">
+                    </div>
+                    <div class="video-info">
+                        <h3>Trabalhando com Arrays</h3>
+                        <p>Métodos essenciais para manipulação</p>
+                        <span class="watch-btn">Assistir no YouTube</span>
+                    </div>
+                </a>
+            </div>
+            
+            <!-- Introdução ao Git -->
+            <div class="video-card">
+                <a href="https://youtu.be/D2YGrI11VNE" class="video-link" target="_blank">
+                    <div class="video-thumbnail">
+                        <img src="https://img.youtube.com/vi/D2YGrI11VNE/maxresdefault.jpg" alt="Introdução ao Git">
+                    </div>
+                    <div class="video-info">
+                        <h3>Introdução ao Git</h3>
+                        <p>Fundamentos do controle de versão</p>
+                        <span class="watch-btn">Assistir no YouTube</span>
+                    </div>
+                </a>
+            </div>
+            
+            <!-- GitHub Passo a Passo -->
+            <div class="video-card">
+                <a href="https://youtu.be/U7FS9bfmp84" class="video-link" target="_blank">
+                    <div class="video-thumbnail">
+                        <img src="https://img.youtube.com/vi/U7FS9bfmp84/maxresdefault.jpg" alt="GitHub Passo a Passo">
+                    </div>
+                    <div class="video-info">
+                        <h3>GitHub Passo a Passo</h3>
+                        <p>Como usar o GitHub na prática</p>
+                        <span class="watch-btn">Assistir no YouTube</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
